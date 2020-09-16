@@ -1,0 +1,157 @@
+{
+    "name": "[string]",
+    "archetype": "[string]",
+    "career": "[string]",
+    "player": "[string]",
+    "money": "[string]",
+    "portrait": "[base64 image]",
+    "description": {
+        "gender": "[string]",
+        "age": "[string]",
+        "height": "[string]",
+        "build": "[string]",
+        "hair": "[string]",
+        "eyes": "[string]",
+        "notable_features": "[string]"
+    },
+    "characteristics": {
+        "brawn": "[int32]",
+        "agility": "[int32]",
+        "intellect": "[int32]",
+        "cunning": "[int32]",
+        "willpower": "[int32]",
+        "presence": "[int32]"
+    },
+    "figured_stats": {
+        "soak": "[int32]",
+        "wounds": "[int32]",
+        "strain": "[int32]",
+        "defense": {
+            "ranged": "[int32]",
+            "melee": "[int32]"
+        }
+    },
+    "experience": {
+        "total": "[int32]",
+        "available": "[int32]"
+    },
+    "skills": {
+        "general": [
+            {
+                "name": "[string]",
+                "career": "[boolean]",
+                "rank": "[int32]"
+            }
+        ],
+        "magic": [
+            {
+                "name": "[string]",
+                "career": "[boolean]",
+                "rank": "[int32]"
+            }
+        ],
+        "combat": [
+            {
+                "name": "[string]",
+                "career": "[boolean]",
+                "rank": "[int32]"
+            }
+        ],
+        "social": [
+            {
+                "name": "[string]",
+                "career": "[boolean]",
+                "rank": "[int32]"
+            }
+        ],
+        "knowledge": [
+            {
+                "name": "[string]",
+                "career": "[boolean]",
+                "rank": "[int32]"
+            }
+        ]
+    },
+    "talents": {
+        "tier_1": [
+            {
+                "name": "[string]",
+                "source": "[string]",
+                "type": "[string]",
+                "activation": "[string]",
+                "description": "[string]"
+            }
+        ],
+        "tier_2": [
+            {
+                "name": "[string]",
+                "source": "[string]",
+                "type": "[string]",
+                "activation": "[string]",
+                "description": "[string]"
+            }
+        ],
+        "tier_3": [{
+            "name": "[string]",
+            "source": "[string]",
+            "type": "[string]",
+            "activation": "[string]",
+            "description": "[string]"
+        }],
+        "tier_4": [{
+            "name": "[string]",
+            "source": "[string]",
+            "type": "[string]",
+            "activation": "[string]",
+            "description": "[string]"
+        }],
+        "tier_5": [{
+            "name": "[string]",
+            "source": "[string]",
+            "type": "[string]",
+            "activation": "[string]",
+            "description": "[string]"
+        }]
+    },
+    "special_abilities": [
+        {
+            "name": "[string]",
+            "source": "[string]",
+            "description": "[string]"
+        }
+    ],
+    "weapons": [
+        {
+            "name": "[string]",
+            "skill": "[string]",
+            "damage": "[int32]",
+            "critical": "[int32]",
+            "range": "[string]",
+            "special": "[string]"
+        }
+    ],
+    "items": [
+      {
+        "name": "[string]",
+        "source": "[string]",
+        "price": "[int32]",
+        "encumberance": "[int32]",
+        "rarity": "[int32]",
+        "description": "[string]"
+      }
+    ],
+    "motivations": {
+        "strength": "[string]",
+        "flaw": "[string]",
+        "desire": "[string]",
+        "fear": "[string]"
+    },
+    "critical_injuries": [
+        {
+            "name": "[string]",
+            "description": "[string]",
+            "severity": "[string]"
+        }
+    ],
+    "notes": "[string]"
+}
